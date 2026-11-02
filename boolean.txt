@@ -1,0 +1,7 @@
+a.     Provide the Boolean parameters: ( true or false ex- you want to start the server or not if you want select true or false)
+Name as value1
+Description as enter some value
+b.     Under build section -> execute shell -> command as echo “$value1”
+c.      go to build with parameter-check it—build
+d.     Then go to console output. It will be true
+Note: if you build without checking the box it will be false
