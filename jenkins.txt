@@ -1,0 +1,35 @@
+1. jenkins
+------------------
+1. what is jenkins? how it came to the market
+    1. when you develop the code, push the code to github or gitlab
+	   manually develop the code, build, test the errors, fix errors, then deploy the code
+2. what is the use of jenkins?
+    to automate the deployment/delivery (ci/cd) process
+	
+   a. jenkins automatically fectch code ( git/git lab)
+   b. Build the application by using Mavenm npm, java becuase jenkins runs these tools
+   c. Test the applications 
+   d. Deploy the applciation
+   e. it can scheduled the next deploy by monitoring the changes
+3. what jenkins cannot be done by himself?
+    java applications -> maven should be there
+    react applications -> node.js and npm
+    build the containers -> docker hub/docker tool plugins
+    If needs to run application cloud -> AWS, kubernetes
+4. How is jenkins used in Devops?
+
+    1. develop the code
+2. push the code to github
+3. jenkins pipeline starts
+4. build the application
+5. run tests
+6. it will publish the package to repository
+7. deploy the application
+
+5. how you isntall jenkins?
+    different type of packeage for different operating system and also available for containerized packages for docker and kubernetes.
+in our case we go and choose web applciatons (war)
+      install supported java
+  installed supported Tomcat
+           download jenkins war file and deploy 
+  then install jenkins required plugins.
